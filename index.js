@@ -42,7 +42,7 @@ module.exports = function(options)
     // Prepare options
     options = options || {};
     options.formator = !options.formator ? defaultFormator : options.formator;
-    options.root = !options.root ? '' : options.root;
+    options.root = !options.root ? __dirname : options.root;
 
     if (!options.destination)    
         errorMessage('A destination is required. Please refer to the docs.');

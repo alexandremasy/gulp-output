@@ -1,6 +1,6 @@
 {
   "name": "gulp-output",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gulp plugin which output filenames.",
   "license": "MIT",
   "homepage": "https://github.com/ahsx/gulp-output",
